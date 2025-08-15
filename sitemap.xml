@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.qtter.com/about/index.html</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://www.qtter.com/2025/06/15/2025/2025-06-15-keep-moving/</loc>
     
     <lastmod>2025-08-15</lastmod>
@@ -122,15 +131,6 @@
     <loc>https://www.qtter.com/2021/08/03/2021/shellsort/</loc>
     
     <lastmod>2025-07-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.qtter.com/about/index.html</loc>
-    
-    <lastmod>2025-07-10</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
