@@ -1,0 +1,8 @@
+
+.DS_Store
+public/
+public*
+themes/maupassant
+node_modules/
+themes/
+init-github-commit.sh

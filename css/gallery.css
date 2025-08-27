@@ -1,0 +1,41 @@
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery a {
+  display: block;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持比例并裁剪 */
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+#gallery-wrapper {
+  position: relative; /* 关键点 */
+  min-height: 200px; /* 确保容器有高度 */
+}
+
+#loading-message {
+  position: absolute; /* 相对于 #gallery-wrapper 定位 */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #666;
+  z-index: 10; /* 确保在最上层 */
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+var toggle = document.querySelector('.darkmode-toggle');
+var html = document.querySelector('html');
+
+html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
+
+toggle.addEventListener('click', () => {
+localStorage.dark = !(html.dataset.dark == 'true');
+html.dataset.dark = localStorage.dark;
+});</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">地球online 截图大赏</h1><a id="logo" href="/.">正是修行时</a><p class="description">我想知道，宇宙的目的是什么</p></div><div id="nav-menu"><a href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/oneline/"><i class="fa fa-heart"> oneline</i></a><a class="current" href="/albums/"><i class="fa fa-image"> 地球online</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/rss.xml"><i class="fa fa-rss"> 订阅</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-4-4"><div class="content_container"><div class="body_container"><!-- 页面标题--><h1>地球online 截图大赏</h1><!-- “返回相册目录”按钮，如果当前是相册详情页--><div class="album-list"><a class="album-item" href="/albums/daily/"><!-- 给 img 加 no-fancybox--><img class="no-fancybox" src="/images/albums/daily/IMG_5596.PNG" alt="日常" loading="lazy"><div class="album-title">日常</div></a><a class="album-item" href="/albums/travel/"><!-- 给 img 加 no-fancybox--><img class="no-fancybox" src="/images/albums/travel/IMG_3131.jpg" alt="旅行" loading="lazy"><div class="album-title">旅行</div></a><a class="album-item" href="/albums/cats/"><!-- 给 img 加 no-fancybox--><img class="no-fancybox" src="/images/albums/cats/xiaobai.jpg" alt="它们" loading="lazy"><div class="album-title">它们</div></a><a class="album-item" href="/albums/dota/"><!-- 给 img 加 no-fancybox--><img class="no-fancybox" src="/images/albums/dota/jugg.jpeg" alt="DOTA" loading="lazy"><div class="album-title">DOTA</div></a></div></div><style>.album-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.album-item {
+  display: block;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: inherit;
+  transition: transform .2s;
+  background: #fff;
+}
+.album-item:hover {
+  transform: scale(1.03);
+}
+.album-item img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+.album-title {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.back-button {
+  display: inline-block;
+  margin-bottom: 15px;
+  padding: 6px 12px;
+  background: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+.back-button:hover {
+  background: #eaeaea;
+}</style><div id="container"></div><link rel="stylesheet" type="text/css" href="https://unpkg.com/gitalk/dist/gitalk.css"><script type="text/javascript" src="https://unpkg.com/blueimp-md5/js/md5.js"></script><script type="text/javascript" src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script><script>var gitalk = new Gitalk({
+  clientID: 'Ov23lig0JRmGBaWXsZgi',
+  clientSecret: 'f8e03738fea4905f7d0adfa19b9cf76355e7e864',
+  repo: 'blog-public',
+  owner: 'fakerqtter',
+  admin: ['fakerqtter'],
+  id: md5(location.pathname),
+  distractionFreeMode: false
+})
+gitalk.render('container')
+</script></div></div><div class="pure-u-1 pure-u-md-4-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">正是修行时.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/fakerqtter/maupassant-hexo"> Theme Diy </a> by<a rel="nofollow" target="_blank" href="https://github.com/fakerqtter"> fakerqtter.</a></div></div></div><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
