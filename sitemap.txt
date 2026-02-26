@@ -1,3 +1,4 @@
+https://www.qtter.com/oneline/index.html
 https://www.qtter.com/albums/daily/index.html
 https://www.qtter.com/albums/cats/index.html
 https://www.qtter.com/albums/dota/index.html
@@ -11,7 +12,6 @@ https://www.qtter.com/2022/mq/nsq/index/
 https://www.qtter.com/2022/mq/kafka/index/
 https://www.qtter.com/albums/index.html
 https://www.qtter.com/albums/travel/index.html
-https://www.qtter.com/oneline/index.html
 https://www.qtter.com/2025/nothing-to-say/
 https://www.qtter.com/2025/lantingjixu/
 https://www.qtter.com/2025/libopenapi-validator/
